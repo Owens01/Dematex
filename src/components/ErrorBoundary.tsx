@@ -19,8 +19,8 @@ class ErrorBoundary extends React.Component {
     if (this.state.hasError) {
       return (
         <div className="min-h-screen flex flex-col items-center justify-center bg-indigo-100 dark:bg-inherit text-gray-900 dark:text-white px-6">
-          <h1 className="text-6xl font-bold text-indigo-400 mb-4">Oops!</h1>
-          <p className="text-xl text-gray-600 dark:text-gray-400 mb-8 text-center max-w-md">
+          <h1 className="text-4xl font-bold text-indigo-400 mb-4">Oops!</h1>
+          <p className="text-base text-gray-600 dark:text-gray-400 mb-8 text-center max-w-md">
             Something went wrong. Please try refreshing the page.
           </p>
           <Link
